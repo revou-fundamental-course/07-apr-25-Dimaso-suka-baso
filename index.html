@@ -7,10 +7,9 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- Navigation Bar -->
     <nav id="navbar">
         <div class="container">
-            <h1 class="logo">Nova<span>Kreatif</span></h1>
+            <h1 class="logo">Neo<span>Nova</span></h1>
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About Us</a></li>
@@ -20,91 +19,145 @@
         </div>
     </nav>
 
-    <!-- Home Section -->
     <section id="home" class="section">
         <div class="container">
-            <h2>Mengubah Ide Menjadi Kenyataan Digital</h2>
-            <p>Kami adalah partner kreatif Anda untuk solusi digital yang inovatif dan berdampak.</p>
-            <a href="#services" class="btn">Lihat Layanan Kami</a>
+            <h2>From Concept to Conquest</h2>
+            <p>Execute. Elevate. Dominate.</p>
+            <a href="#services" class="btn">Our Services</a>
         </div>
     </section>
 
-    <!-- About Us Section -->
     <section id="about" class="section">
         <div class="container">
-            <h2>Tentang Kami</h2>
+            <h2>About Us</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <h3>Nova Kreatif</h3>
-                    <p>Didirikan pada tahun 2023, Nova Kreatif adalah perusahaan kreatif digital yang berkomitmen untuk memberikan solusi inovatif dalam dunia konten digital dan pemasaran kreatif.</p>
-                    <p>Dengan tim yang terdiri dari profesional muda berbakat di bidang desain, konten, dan strategi digital, kami siap membantu bisnis Anda tumbuh di era digital.</p>
+                    <h3>Who We Are</h3>
+                        <p>Founded in 2023, Nova Creative is a dynamic digital innovation agency born from the convergence of cutting-edge technology and artistic vision. Our team of digital natives combines Silicon Valley tech expertise with Jakarta's creative energy to deliver transformative solutions.</p>
+
+                    <h3>Our Genesis</h3>
+                        <p>In an era where 73% of brands struggle with digital visibility*, Nova Creative emerged to bridge the gap between creative potential and digital impact. We specialize in turning abstract concepts into measurable online success through our proprietary CRE8 framework (Creative + Execute).</p>
+
+                    <h3>Core Commitment</h3>
+                    <p>We're redefining digital marketing by fusing:</p>
+                <ul>
+                    <li>Data-driven content strategies</li>
+                    <li>Visually stunning execution</li>
+                    <li>Platform-specific optimization</li>
+                </ul>
+
+                <p class="stat-note">*Source: 2023 Global Digital Marketing Benchmark Report</p>
                 </div>
                 <div class="about-image">
-                    <img src="https://via.placeholder.com/400x300" alt="Tim Nova Kreatif">
+                    <img src="/assets/about us.jpg" alt="Tim Nova Kreatif">
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Services Section -->
     <section id="services" class="section">
         <div class="container">
-            <h2>Layanan Kami</h2>
+            <h2>Our Services</h2>
             <div class="services-grid">
                 <div class="service-card">
-                    <h3>Pembuatan Konten Digital</h3>
-                    <p>Konten visual dan tertulis yang menarik untuk media sosial, website, dan platform digital lainnya.</p>
+                    <div class="service-icon">
+                        <img src="https://cdn-icons-png.flaticon.com/512/1086/1086741.png" alt="Content Creation">
+                    </div>
+                    <h3>Digital Content Creation</h3>
+                    <p>Compelling visual and written content tailored for social media, websites, and digital platforms to boost your online presence.</p>
+                    <a href="#contact" class="service-btn">Learn More</a>
                 </div>
+                
                 <div class="service-card">
-                    <h3>Desain Grafis</h3>
-                    <p>Solusi desain kreatif untuk branding, pemasaran, dan kebutuhan komunikasi visual Anda.</p>
+                    <div class="service-icon">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2779/2779775.png" alt="Graphic Design">
+                    </div>
+                    <h3>Graphic Design</h3>
+                    <p>Creative design solutions for branding, marketing campaigns, and all your visual communication needs.</p>
+                    <a href="#contact" class="service-btn">Learn More</a>
                 </div>
+                
                 <div class="service-card">
-                    <h3>Strategi Media Sosial</h3>
-                    <p>Perencanaan dan eksekusi strategi media sosial untuk meningkatkan engagement dan penjualan.</p>
+                    <div class="service-icon">
+                        <img src="https://cdn-icons-png.flaticon.com/512/3663/3663989.png" alt="Social Media">
+                    </div>
+                    <h3>Social Media Strategy</h3>
+                    <p>Comprehensive planning and execution to enhance engagement, grow followers, and increase conversions.</p>
+                    <a href="#contact" class="service-btn">Learn More</a>
                 </div>
-                <div class="service-card">
-                    <h3>Video Production</h3>
-                    <p>Pembuatan video profesional untuk iklan, tutorial, konten sosial media, dan kebutuhan lainnya.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            
+            <div class="contact-container">
+                <form id="contactForm" class="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Full Name<span class="required">*</span></label>
+                            <input type="text" id="name" name="name" placeholder="Your name" required>
+                            <div class="error" id="nameError"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address<span class="required">*</span></label>
+                            <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                            <div class="error" id="emailError"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number <span class="optional">(optional)</span></label>
+                        <input type="tel" id="phone" name="phone" placeholder="+62 123 4567 890">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Your Message<span class="required">*</span></label>
+                        <textarea id="message" name="message" rows="6" placeholder="Tell us about your project..." required></textarea>
+                        <div class="error" id="messageError"></div>
+                    </div>
+                    
+                    <div class="form-submit">
+                        <button type="submit" class="btn btn-primary">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-icon">→</span>
+                        </button>
+                    </div>
+                </form>
+                
+                <div class="contact-info">
+                    <h3>Other Ways to Connect</h3>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <img src="https://cdn-icons-png.flaticon.com/512/561/561188.png" alt="Email">
+                        </div>
+                        <p>Sigma@novacreative.com</p>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <img src="https://cdn-icons-png.flaticon.com/512/455/455705.png" alt="Phone">
+                        </div>
+                        <p>+62 21 1234 5678</p>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <img src="https://cdn-icons-png.flaticon.com/512/684/684809.png" alt="Location">
+                        </div>
+                        <p>Bandung City International Business Section<br>Bandung, Indonesia</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="section">
-        <div class="container">
-            <h2>Hubungi Kami</h2>
-            <form id="contactForm">
-                <div class="form-group">
-                    <label for="name">Nama:</label>
-                    <input type="text" id="name" name="name" required>
-                    <div class="error" id="nameError"></div>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                    <div class="error" id="emailError"></div>
-                </div>
-                <div class="form-group">
-                    <label for="phone">Telepon (opsional):</label>
-                    <input type="tel" id="phone" name="phone">
-                </div>
-                <div class="form-group">
-                    <label for="message">Pesan:</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
-                    <div class="error" id="messageError"></div>
-                </div>
-                <button type="submit" class="btn">Kirim Pesan</button>
-            </form>
-        </div>
-    </section>
-
-    <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2023 Nova Kreatif. All Rights Reserved.</p>
-        </div>
+            <p>Neo <span>Nova</span></p>
+
     </footer>
 
     <script src="js/script.js"></script>
